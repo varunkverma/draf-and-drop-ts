@@ -1,7 +1,7 @@
-import { Component } from "./base-component.js";
-import { Autobind } from "../decorators/autobind.js";
-import { projectState } from "../util/project-state.js";
-import * as Validation from "../util/validation.js";
+import { Component } from "./base-component";
+import { Autobind } from "../decorators/autobind";
+import { projectState } from "../util/project-state";
+import * as Validation from "../util/validation";
 // get access to the form template and then render it in the div
 export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {
   titleInputElement: HTMLInputElement;
